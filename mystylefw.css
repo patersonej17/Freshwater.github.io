@@ -1,9 +1,22 @@
 body {
-    background-color:white;
+    
     top: 0;
     left: 0;
+    margin:0;
+    Height:100%;
 }
 
+.background {
+    background-image: url(nzwater1.jpg);
+    height:100%;
+    width: 98%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+      
+    
 .navbar {
     background-color: blue;
     top: 0;
@@ -51,3 +64,14 @@ body {
     background-color:cadetblue;
 }
 
+.main {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.Container {
+  background-color:white;
+  padding: 15px;
+  text-align: left;
+  font-size: 35px;
+  font-family: sans-serif;
+  color: black;
