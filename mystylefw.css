@@ -1,27 +1,17 @@
 body {
-    
+        
     top: 0;
     left: 0;
     margin:0;
     Height:100%;
 }
 
-.background {
-    background-image: url(nzwater1.jpg);
-    height:100%;
-    width: 98%;
-    float: left;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
-}
-      
-    
 .navbar {
     background-color: blue;
-    top: 0;
     left: 0;
     width: 100%;
+    position: fixed;
+    z-index: 2;
 }
 
 .navbar a {
@@ -47,31 +37,56 @@ body {
     color:white;
 }
 
-.header {
-  background-color:white;
-  padding: 15px;
-  text-align: left;
-  font-size: 35px;
-  font-family: sans-serif;
-  color: black;
+.background {
+    background-image: url(nzwater1.jpg);
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+   
+    
+    .container{
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
+
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 16px;
+    color:black;
+    font-size: 50px;
+    background-color: white;
+    opacity: 70%;
+    padding:5px;
+    z-index: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    color:black; 
+}
+
+      
 
 .dsr {
     float:right;
     width: 2%;
-    height: 1000px;
+    height: 850px;
     background-color:cadetblue;
 }
 
-.main {
-    background-color: rgba(0,0,0,0.7);
-}
 
-.Container {
-  background-color:white;
-  padding: 15px;
-  text-align: left;
-  font-size: 35px;
-  font-family: sans-serif;
-  color: black;
+
+
+
+
+ 
