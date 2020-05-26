@@ -37,7 +37,7 @@ body {
     color:white;
 }
 
-.background {
+.backgroundmain {
     background-image: url(nzwater1.jpg);
     background-attachment: fixed;
     height:100%;
@@ -49,14 +49,9 @@ body {
 }
    
     
-    .container{
-    position: relative;
-    text-align: center;
-    color: white;
-}
 
 
-.top-left {
+.title {
     position: absolute;
     top: 100px;
     left: 16px;
@@ -68,22 +63,45 @@ body {
     z-index: 1;
 }
 
-.centered {
+.main {
     position: absolute;
-    top: 300px;
-    left: 50%;
+    top: 500px;
     color:black; 
+    left:20%;
+    right:20%;
+    background-color: white;
+    opacity: 70%;
+    padding:5px;
+    z-index: 1;
+}      
+
+
+.left {
+    float:left;
 }
 
-      
-
-.dsr {
-    float:right;
-    width: 2%;
-    height: 850px;
-    background-color:cadetblue;
+.right {
+    float:left;
+    background-image: url(nzwater2.jpg);
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+
+.backgroundTA {
+    background-image: url(NzWaterTA2.jpg);
+    background-attachment: fixed;
+    height:100%;
+    width: 100%;
+    float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 
 
 
