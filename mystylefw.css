@@ -83,12 +83,6 @@ body {
 .right {
     float:left;
     background-image: url(nzwater2.jpg);
-    background-attachment: fixed;
-    height:100%;
-    width: 100%;
-    float: left;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 
